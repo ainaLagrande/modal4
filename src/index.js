@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components'
 
 const Background = styled.div`
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
 `;
 
 const Center = styled.div`
@@ -45,7 +45,6 @@ export default function Modal({ setOpen, message, buttonText}) {
       <Center>
         <ModalDiv>
           <p>{message}</p>
-          <h1>sfdvfsd</h1>
             <ModalButton onClick={(closeModal) => setOpen(false)}>
             {buttonText}
             </ModalButton>
