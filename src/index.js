@@ -13,23 +13,23 @@ const Background = styled.div`
 `;
 
 const Center = styled.div`
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `
 const ModalDiv = styled.div`
-      width: 200px;
-      height: 150px;
-      background-color: white;
-      z-index: 9999;
-      border-radius: 16px;
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
-      text-align: center;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  z-index: 9999;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 `
 
 const ModalButton = styled.button`
@@ -43,6 +43,7 @@ export default function Modal({ setOpen, message, buttonText }) {
       <Center>
         <ModalDiv>
           <p>{message}</p>
+          <h1>JFJNDCJ</h1>
             <ModalButton onClick={() => setOpen(false)}>
             {buttonText}
             </ModalButton>
