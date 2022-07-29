@@ -19,8 +19,8 @@ const Center = styled.div`
   transform: translate(-50%, -50%);
 `
 const ModalDiv = styled.div`
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 250px;
   background-color: white;
   z-index: 9999;
   border-radius: 16px;
@@ -35,6 +35,8 @@ const ModalDiv = styled.div`
 const ModalButton = styled.button`
   color: black;
   background-color: white;
+  padding: 5px 7px;
+  border:none;
 `
 
 export default function Modal({ setOpen, message, buttonText}) {
