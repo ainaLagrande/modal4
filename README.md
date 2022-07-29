@@ -3,13 +3,13 @@
 ## Install
 
 ```bash
-npm i modal-code-hrnet
+npm i modal-14-hrnet
 ```
 
 ## Usage
 
 ```jsx
-import Modal from 'modal-code-hrnet';
+import Modal from 'modal-14-hrnet';
 
 function Example() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
