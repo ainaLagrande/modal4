@@ -37,14 +37,14 @@ const ModalButton = styled.button`
   background-color: white;
 `
 
-export default function Modal({ setOpen, message, buttonText }) {
+export default function Modal({ setOpen, message, buttonText,onclick }) {
   return (
     <Background onClick={() => setOpen(false)}>
       <Center>
         <ModalDiv>
           <p>{message}</p>
           <h1>JFJNDCJ</h1>
-            <ModalButton onClick={() => setOpen(false)}>
+            <ModalButton onClick={({onclick}) => setOpen(false)}>
             {buttonText}
             </ModalButton>
         </ModalDiv>
