@@ -1,8 +1,4 @@
-# HRNet Modal component plugin
-
-> Made with create-react-library
-
-[![NPM](https://img.shields.io/npm/v/modal-package-hrnet)](https://www.npmjs.com/package/modal-package-hrnet) 
+# HRNet Modal
 
 ## Install
 
@@ -27,7 +23,3 @@ function Example() {
   )
 }
 ```
-
-## License
-
-MIT © [MancJames](https://github.com/mancjames)
